@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+}
+ul{
+    padding-left: 0;
+}
+ul li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px;
+   
+}
+
+h1{text-align: center;}
+input{border:none;
+width: 100%;}
+.fas{
+    float: right;
+    display: none;
+}
+
+li:hover  .fas{
+    display: flex;
+    display: inline-block;
+    justify-content: right;
+}
